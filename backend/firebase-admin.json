@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mystockpos",
+  "private_key_id": "eb82f6b46e565cef0a87ea08576e430e8b7cd078",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCy9ff8TTSsHQzd\n93amNmJ+QvPSZwyF2volXFZMUDe9Ytqcte/03aI7/Xr4UN57NtmC7CdP4X8rW3yl\nOKCotjtuXLa8YI0nniweSyRAygnCo9hdh5raTDEDek6EbmpSuOXuwrd7+qPiqLBl\nV1ENMmmXIDYFDJuMePYWrB37IlcXNO1Uot9hEYsDR9yMZC0DEnBBcZLnlht1NQp9\n4WRlJrUicvjAeVE/ALJMbJ8VMXUxNOtVodGSs3D6j/RaX9gaCAkOoXrWVe6c5NXV\nNblQ7vZMBZScN8y+XGpZFIvR4kOSDPjIjxkJdBILFv3djmouljIh+22j5EbpGpex\n+xc7IBDzAgMBAAECggEAHZ5M3SJwAb5LF19x8R9WHLx6+wsYDP1JYi6Oj9HE7+Cw\n+re3z4hw5cnVdMx5jd3tkNgBx5wz/lqFXhjpqhKC8oiAq9u08OYiOh9IkDp/9AlG\n8W/UhqWOhRtUbGGT0j4Mu//Y+zlnr0co7pTNcsgxppPrrNlB0zVf0S/KRHqR/GJ8\ngN9Rf7Pz1R2RcWmzEWW3ToiGaUol9toG9wNoEjcseS8CXG0lbm6zMoufJYShV+4z\ns6OC0MJM2SvlUt4ciuRPw3ONAaG3BeFSkvDXDcKjzt+faq93OWkz1bB82YI3W8Bk\nCLJ1IT5YBm0uqQcOTjysrVcetjv2R3l9UWPwzXpLJQKBgQDoRDQqhWPPnr6GiM48\nhUual+lzKpHxUVYOYJnmfPJp5FnOM/ghcUoPkpBPcsCP6gUNbaSiWwbdU5YbQUng\n4OxgZkVDwSubd7yqhTEY67bNwabJZY11hk+0+LRjIhsgm0vh1IlZBiQ1DyhsAWqj\nBNhR7zhRURE1oub6VQ2ZfLSODQKBgQDFP1uLbJW0SXGRO2m+tlUXY13gp4NryhC3\n/2/9spkhHcCHDAPExCnMiARrFJkFvcZKpQ9uED5+fl/nT+Erg2835Hqmq0T0whc/\nYULso7mUKmrrHcSZo1u17wTdeoq04nBUEZiYMQSdCii5JwYpSymoHpBFQMPI6WdX\n870pTy5a/wKBgQC/elq3IzhhlTDkoCvFYO4vCEWAl/uwwaj8OU8m4KLIAWS3xcgt\nacPwipdFqAhvnDGGHHm5Dund1GbPGUfaiBLWdflsHffhNxjmSt9q+AfAIIFrTrkL\nxio3u0Ca6ScL/nrUNe704UdAJrrgL1rGAdyDz37SKs7RNPbOMQgBHPmMkQKBgGGH\nm2dMMJWtfvcVzoqbM2XWHzQXABeLGUsxhZmG9sp2IJ1l5nMjn5tfYffkfmllVafR\nB9kfNRdsu1TvnWHbomGbmr3Qj88KLV6MZAAIUJmfg7Bvzqc9K/rAjcJJdk5MbMhU\nzwPpsONJg6tRTW2bmaRkQGfNx0EPj6bggRbs7PnXAoGBAKwU9ALP/mnA41ITrS5e\nL1gCRGDFQna1HTP7JcDTqSKK/3ZUJTPF8VsZ+vQ6udbzvL1hKC3F48WQRs41e8uw\npUQDSIXX7wiANuFsUq13TmgqWPW2ra7h2o/XsZEoHFDNf5Cx2ajnZ5Z2llbLyOQ+\nCXJn26wcsipUv22usdvyqxA6\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@mystockpos.iam.gserviceaccount.com",
+  "client_id": "115796894586720969168",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40mystockpos.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
