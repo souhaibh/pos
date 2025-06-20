@@ -1,14 +1,13 @@
 const express = require('express');
-const cors = require('cors');
-const productRoutes = require('./routes/products');
-require('dotenv').config();
-
 const app = express();
+const productRoutes = require('./routes/myproducts');
 
-app.use(cors());
 app.use(express.json());
 
-app.use('/api/products', productRoutes);
+// Use product routes on /products
+app.use('/products', productRoutes);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});

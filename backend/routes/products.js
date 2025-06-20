@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
 router.post('/', async (req, res) => {
   try {
     const data = req.body;
-    console.log('Incoming data:', data); // 🟢 Add this
+    console.log('Incoming data:', data); // For debugging
     const docRef = await db.collection('products').add(data);
     res.json({ id: docRef.id, ...data });
   } catch (error) {
@@ -27,7 +27,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-// Update stock (or any product fields)
+// Update a product
 router.put('/:id', async (req, res) => {
   try {
     const data = req.body;
