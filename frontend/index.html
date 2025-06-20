@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Stock POS System</title>
-  <style>
+  <head>
+    <meta charset="UTF-8">
+    <title>Stock POS System</title>
+    <style>
     :root {
       --primary: #1d3557;
       --accent: #457b9d;
@@ -106,27 +106,26 @@
       background: #21867a;
     }
   </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Stock Management System</h1>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stock Management System</h1>
 
-    <div class="form-section">
-      <h2>Add New Product</h2>
-      <input id="name" placeholder="Product Name" />
-      <input id="price" placeholder="Price" type="number" />
-      <input id="stock" placeholder="Stock" type="number" />
-      <input id="category" placeholder="Category" />
-      <button onclick="addProduct()">Add Product</button>
+      <div class="form-section">
+        <h2>Add New Product</h2>
+        <input id="name" placeholder="Product Name" />
+        <input id="price" placeholder="Price" type="number" />
+        <input id="stock" placeholder="Stock" type="number" />
+        <input id="category" placeholder="Category" />
+        <button onclick="addProduct()">Add Product</button>
+      </div>
+
+      <h2>All Products</h2>
+      <div class="products" id="products"></div>
     </div>
 
-    <h2>All Products</h2>
-    <div class="products" id="products"></div>
-  </div>
-
-  <script>
-    const api = 'http://localhost:5000/api/products';
-
+    <script>
+const api = 'https://pos-backend.onrender.com/api/products';
     async function fetchProducts() {
       const res = await fetch(api);
       const products = await res.json();
@@ -186,5 +185,5 @@
 
     fetchProducts();
   </script>
-</body>
+  </body>
 </html>
